@@ -1,0 +1,63 @@
+1637417944587	geckodriver	INFO	Listening on 127.0.0.1:29208
+1637417947579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofileXgsaPR"
+1637417948352	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofileXgsaPR\\search.json.mozlz4", (void 0)))
+1637417951276	Marionette	INFO	Listening on port 29221
+1637417951445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637417957010	Marionette	INFO	Stopped listening on port 29221
+[Parent 7516, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1637417964753	geckodriver	INFO	Listening on 127.0.0.1:29330
+1637417967769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofile4tZJ1f"
+1637417968566	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofile4tZJ1f\\search.json.mozlz4", (void 0)))
+1637417971126	Marionette	INFO	Listening on port 29352
+1637417971625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637417976048	Marionette	INFO	Stopped listening on port 29352
+[Parent 9040, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637418036662	geckodriver	INFO	Listening on 127.0.0.1:29517
+1637418039673	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofileU6rRPE"
+1637418040414	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofileU6rRPE\\search.json.mozlz4", (void 0)))
+1637418042980	Marionette	INFO	Listening on port 29530
+1637418043039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637418047452	Marionette	INFO	Stopped listening on port 29530
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1637418551581	geckodriver	INFO	Listening on 127.0.0.1:30270
+1637418554603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofileldn23k"
+1637418555368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofileldn23k\\search.json.mozlz4", (void 0)))
+1637418558099	Marionette	INFO	Listening on port 30282
+1637418558456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637418562797	Marionette	INFO	Stopped listening on port 30282
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1637418593897	geckodriver	INFO	Listening on 127.0.0.1:30366
+1637418596914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofile40T5QU"
+1637418597653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofile40T5QU\\search.json.mozlz4", (void 0)))
+1637418600581	Marionette	INFO	Listening on port 30379
+1637418600766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637418605270	Marionette	INFO	Stopped listening on port 30379
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1637418665800	geckodriver	INFO	Listening on 127.0.0.1:30511
+1637418668805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ZHAVOR~1\\AppData\\Local\\Temp\\rust_mozprofileBSCvWL"
+1637418669547	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Zhavoronkov\\AppData\\Local\\Temp\\rust_mozprofileBSCvWL\\search.json.mozlz4", (void 0)))
+1637418672466	Marionette	INFO	Listening on port 30522
+1637418672654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637418697056	Marionette	INFO	Stopped listening on port 30522
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
