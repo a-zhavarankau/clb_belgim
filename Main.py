@@ -1,12 +1,12 @@
-import requests, random, time
-from bs4 import BeautifulSoup as bs
-from bs4 import NavigableString, Comment
-from pprint import pprint
+# import requests, random, time
+# from bs4 import BeautifulSoup as bs
+# from bs4 import NavigableString, Comment
+# from pprint import pprint
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-import pickle
+# import pickle
 import time
 
 print("START!")
