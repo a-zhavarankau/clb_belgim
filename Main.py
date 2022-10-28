@@ -13,16 +13,6 @@ print("START!")
 
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    # "Accept-Encoding": "gzip, deflate",
-    # "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
-    # "Connection": "keep-alive",
-    # "Content-Length": "29",
-    # "Content-Type": "application/x-www-form-urlencoded",
-    # "Cookie": "PHPSESSID=413b817311f249aa3d2e159affaadd79",
-    # "Host": "clb.belgim.by",
-    # "Origin": "http://clb.belgim.by",
-    # "Referer": "http://clb.belgim.by/login",
-    # "Upgrade-Insecure-Requests": "1",
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0"
 }
 
@@ -34,14 +24,12 @@ options_chr.add_argument("Accept-Encoding=gzip, deflate")
 options_chr.add_argument("Cache-Control=max-age=0")
 options_chr.add_argument("Connection=keep-alive")
 options_chr.add_argument("Content-Length=29")
-# options_chr.add_argument("Cookie=PHPSESSID=413b817311f249aa3d2e159affaadd79")
 options_chr.add_argument("Cookie=_ga_L2F9TNFWDK=GS1.1.1637420622.1.0.1637420625.0; _ga=GA1.1.519440560.1637420623; PHPSESSID=f451a52f60219b806ea24bab5d44184d")
 options_chr.add_argument("Origin=http://clb.belgim.by")
-# options_chr.add_argument("Referer=http://clb.belgim.by/login")
+# options_chr.add_argument("Referer=http://clb.belgim.by/login")  # [Maybe check if it's necessary]
 options_chr.add_argument("Upgrade-Insecure-Requests=1")
 options_chr.add_argument("--disable-blink-features=AutomationControlled")
-
-# options.add_argument("--headless")
+# options.add_argument("--headless")    # Additional setup
 
 driver_chr = webdriver.Chrome(
     executable_path=r"C:\Clb_belgim_by\chromedriver.exe",
@@ -171,7 +159,7 @@ try:
     action.send_keys("U= 0.05°")
     action.perform()
     print("174")
-    # button_renew = driver_chr.find_element_by_xpath("/html/body/div[1]/div[2]/div/div/form/button")
+    # button_renew = driver_chr.find_element_by_xpath("/html/body/div[1]/div[2]/div/div/form/button")  # With Xpath
     button_renew = driver_chr.find_element_by_css_selector("#bcenter > form:nth-child(8) > button:nth-child(5)")
     button_renew.click()
     time.sleep(2)
