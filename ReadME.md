@@ -1,7 +1,7 @@
 # Description
 Application to autofill fields from `adm.belgim.by`and `clb.belgim.by` with output data.
 
-The code is written in dirty style. The main goal was to implement the following actions:
+The code is written in dirty style. The main goal was to check the workability of the following actions:
 - connect to server with user account details
 - collect input data
 - autofill fields on the first site
