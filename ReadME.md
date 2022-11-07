@@ -1,4 +1,4 @@
-# :mag_right: Web scrapper for local needs 
+## :mag_right: Web scrapper for local needs 
 Application to autofill fields into the `adm.belgim.by` + `clb.belgim.by` and retrieve output data.
 
 The code is written in dirty style. The main goal was to check the workability of the following actions:
